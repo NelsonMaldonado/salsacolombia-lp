@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
-import scdance from "../public/imgs/sc_dance.png";
-import event from "../public/imgs/event.png";
-import music from "../public/imgs/music_icon.png";
-import foodPic from "../public/imgs/food_icon.png";
-import facebookIcon from "../public/imgs/fb1.png";
-import insta from "../public/imgs/insta.png";
-import venmo from "../public/imgs/venmo_icon.png";
-import lesson from "../public/imgs/lesson.png";
+import React from "react"
+import styled from "styled-components"
+import scdance from "../public/imgs/sc_dance.png"
+import event from "../public/imgs/event.png"
+import music from "../public/imgs/music_icon.png"
+import foodPic from "../public/imgs/food_icon.png"
+import facebookIcon from "../public/imgs/fb1.png"
+import insta from "../public/imgs/insta.png"
+import venmo from "../public/imgs/venmo_icon.png"
+import lesson from "../public/imgs/lesson.png"
 
 const Container = styled.div`
   display: flex;
@@ -16,18 +16,18 @@ const Container = styled.div`
   text-align: center;
   background-color: #a0dcff;
   font-family: sans-serif;
-`;
+`
 const AvatarContainer = styled.div`
   margin-top: 39px;
   margin-bottom: 7px;
-`;
+`
 
 const Avatar = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-`;
+`
 const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ const ButtonsContainer = styled.div`
   @media (max-width: 767px) {
     flex-direction: column;
   }
-`;
+`
 
 const Button = styled.a`
   display: flex;
@@ -60,29 +60,29 @@ const Button = styled.a`
     background-color: lightblue;
     color: white;
   }
-`;
+`
 
 const BlankDiv = styled.div`
   /* border: 2px red solid; */
   width: 40px;
   height: 40px;
-`;
+`
 
 const ButtonImage = styled.img`
   /* border: 2px red solid; */
   width: 40px;
   height: 40px;
-`;
+`
 const ButtonText = styled.div`
   /* border: 2px green solid; */
   padding: 10px;
-`;
+`
 
 const Footer = styled.footer`
   color: white;
   padding: 15px 0 20px 0;
   font-size: 12px;
-`;
+`
 
 function App() {
   return (
@@ -92,7 +92,7 @@ function App() {
       </AvatarContainer>
       <p style={{ color: "white" }}>@salsacolombia</p>
       <ButtonsContainer>
-        <Button target="_blank" href="https://m4f0dm-5173.preview.csb.app/">
+        <Button target="_blank" href="https://pickmylunch.pages.dev/">
           <ButtonImage src={foodPic} alt="food_icon" />
           <ButtonText> Let us pick your lunch</ButtonText>
           <BlankDiv />
@@ -143,7 +143,7 @@ function App() {
         © SalsaColombia Dance Academy USA, All Rights Reserved 2023{" "}
       </Footer>
     </Container>
-  );
+  )
 }
 
-export default App;
+export default App
